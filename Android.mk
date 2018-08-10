@@ -8,6 +8,7 @@ cflags := -O2 -g \
     -DPROGDATE=\"December\ 2011\" \
     -Wno-sign-compare -Wno-missing-field-initializers \
     -Wno-ignored-qualifiers -Wno-unused-parameter \
+    -Wno-error \
     -Wno-#pragma-messages
 
 extensions_src_files := \
